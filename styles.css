@@ -1,0 +1,80 @@
+* {
+	/* border: 1px dashed red; */
+	min-height: 10px;
+}
+
+body {
+	background: black;
+	font-family: "Indie Flower", cursive;
+}
+
+.postcard {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	background: white;
+	padding: 10px;
+}
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+}
+
+#geeks-logo {
+	height: 50px;
+	width: 50px;
+}
+
+.postcard-header h1 {
+	width: 10.5em;
+	height: 50px;
+	margin: 0px;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left,
+.body-right {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+
+.body-left {
+	flex: 50%;
+}
+
+.body-right {
+	flex: 50%;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-left p {
+	text-align: justify;
+	margin: 5px;
+}
+
+.body-right form input {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.postcard-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.button-send {
+	background: rgb(170, 170, 170);
+	text-align: center;
+	border: none;
+	padding: 5px;
+}
